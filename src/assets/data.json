@@ -1,0 +1,632 @@
+{
+    "cartas": [
+        {
+            "id": "1Paus",
+           "nome":"Ás de Paus",
+            "img":"1Paus.png",
+            "desc":"A Unidade, o espírito, a força vital. Campo favorável para o surgimento de uma nova ideia, de um novo projeto.Energia disponível para transformar sonhos em realidade e  expressar a si mesmo, de maneira saudável.",
+            "cat":"Arcano Menor",
+            "naipe":"Paus"   
+        
+       },
+        {
+            "id": "2Paus",
+           "nome":"Dois de Paus",
+            "img":"2Paus.png",
+            "desc":"Dualidade, o princípio masculino e o princípio feminino,Encontro da ideia com o campo, da força vital com a substancia vital.A formulação de um novo projeto está em andamento.As linhas básicas estão sendo traçadas para se obter uma definição clara do objetivo.",
+            "cat": "Arcano Menor",
+            "naipe":"Paus"    
+        
+        },
+        {
+           "id": "3Paus",       
+           "nome":"Três de Paus",
+            "img":"3Paus.png",
+            "desc":"Projeto pronto.Fase inicial bem sucedida. Otimismo e entusiasmo. Momento de Celebração",
+            "cat": "Arcano Menor",
+            "naipe":"Paus"          
+       
+        },
+        {
+            "id": "4Paus",
+            "nome":"Quatro de Paus",
+            "img":"4Paus.png",
+            "desc":"O projeto superou as primeiras barreiras e se estabeleceu. Momento de estabilidade e segurança. ",
+            "cat": "Arcano Menor",
+            "naipe":"Paus"   
+        
+        },
+        {
+            "id": "5Paus",
+            "nome":"Cinco de Paus",
+            "img":"5Paus.png",
+            "desc":"Alerta Estagnação, falta inovação. Crise criativa. Ausência de boas ideias. Expectativas não atingidas. Risco de fracasso.",
+            "cat": "Arcano Menor",
+            "naipe":"Paus"      
+        },
+        {
+            "id": "6Paus",
+            "nome":"Seis de Paus",
+            "img":"6Paus.png",
+            "desc":"Movimento em direção ao equilíbrio, Insistir no sonho. Fazer as mudanças necessárias para retomar o equilíbrio e voltar a crescer. ",
+            "cat": "Arcano Menor",
+            "naipe":"Paus"      
+        },
+        {
+            "id": "7Paus",
+            "nome":"Sete de Paus",
+            "img":"7Paus.png",
+            "desc":"Fechamento de um ciclo. Disposição para desistir de um sonho, de um projeto, de uma vida. Propensão para abrir mão de tudo o que foi feito até aqui e aceitar o fim.",
+            "cat": "Arcano Menor",
+            "naipe":"Paus"      
+        },
+        {
+            "id": "8Paus",
+            "nome":"Oito de Paus",
+            "img":"8Paus.png",
+            "desc":"Disposição para começar algo novo Maturidade para reconhecer que é hora de começar algo novo.Possibilidade de começar uma vida nova em outro lugar.",
+            "cat": "Arcano Menor",
+            "naipe":"Paus"      
+        },
+        {
+            "id": "9Paus",
+            "nome":"Nove de Paus",
+            "img":"9Paus.png",
+            "desc":"Satisfação. Satisfação consigo mesmo",
+            "cat": "Arcano Menor",
+            "naipe":"Paus"      
+        },
+        {
+            "id": "10Paus",
+            "nome":"Dez de Paus",
+            "img":"10Paus.png",
+            "desc":"Sucesso Pessoal",
+            "cat": "Arcano Menor",
+            "naipe":"Paus"      
+        },
+        {
+            "id": "vPaus",
+            "nome":"Pagem de Paus",
+            "img":"vPaus.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Paus"      
+        },
+                {
+            "id": "cPaus",
+            "nome":"Cavaleiro de Paus",
+            "img":"cPaus.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Paus"      
+        },
+              {
+            "id": "qPaus",
+            "nome":"Rainha de Paus",
+            "img":"qPaus.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Paus"      
+        },
+              {
+            "id": "kPaus",
+            "nome":"Rei de Paus",
+            "img":"kPaus.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Paus"      
+        },
+        {
+            "id": "1Ouros",
+            "nome":"Ás de Ouros",
+            "img":"1Ouros.png",
+            "desc":"O Início. A Unidade, o corpo, o campo, a substância vitalCondições favoráveispara assuntos materiais.Energia disponível para a realização material e execução de um trabalho. Potencial para a concretização de um sonho",
+            "cat": "Arcano Menor",
+            "naipe":"Ouros"      
+        },
+        {
+            "id": "2Ouros",
+            "nome":"Dois de Ouros",
+            "img":"2Ouros.png",
+            "desc":"Encontro das partes. Dualidade, espiritual e físico,ideia e execução, semente e terra, tratamento e doente.Parceria, sociedade, capital e trabalhoInvestir, financiar, apostar, patrocinar, doar dinheiro.Pagar o preço, assumir riscos e aplicar capital para criar apossibilidade do resultado desejado. ",
+            "cat": "Arcano Menor",
+            "naipe":"Ouros"      
+        },
+        {
+            "id": "3Ouros",
+            "nome":"Três de Ouros",
+            "img":"3Ouros.png",
+            "desc":"ProduçãoBoa colheita.Momento de Celebração pelo retorno satisfatório do investimento.O trabalho dá bons frutos. Tratamento de saúde com resultados promissores. Treinamento obtém progresso desejado",
+            "cat": "Arcano Menor",
+            "naipe":"Ouros"      
+        },
+        {
+            "id": "4Ouros",
+            "nome":"Quatro de Ouros",
+            "img":"4Ouros.png",
+            "desc":"Estabilidade e segurança. Bons resultados trazem conforto. Momento de segurança e estabilidade. ",
+            "cat": "Arcano Menor",
+            "naipe":"Ouros"      
+        },
+        {
+            "id": "5Ouros",
+            "nome":"Cinco de Ouros",
+            "img":"5Ouros.png",
+            "desc":"Estabilidade e segurança. Bons resultados trazem conforto. Momento de segurança e estabilidade. ",
+            "cat": "Arcano Menor",
+            "naipe":"Ouros"      
+        },
+        {
+            "id": "6Ouros",
+            "nome":"Seis de Ouros",
+            "img":"6Ouros.png",
+            "desc":"Movimento em direção ao equilíbrio.Insistir no investimento.Injeção de recursos, receber herança, receber patrocínio, doação ou ajuda.Fazer as mudanças e os ajustes  necessários para recobrar o equilíbrio,retomar o desenvolvimento e o progresso.",
+            "cat": "Arcano Menor",
+            "naipe":"Ouros"      
+        },
+        {
+            "id": "7Ouros",
+            "nome":"Sete de Ouros",
+            "img":"7Ouros.png",
+            "desc":"Fechamento de um ciclo. Disposição para desistir de um investimento, de um negócio, de um trabalho, de um tratamento de saúde, de um treinamento, de uma dieta.Propensão para abrir mão de tudo o que foi feito até aqui e aceitar o fim.",
+            "cat": "Arcano Menor",
+            "naipe":"Ouros"      
+        },
+        {
+            "id": "8Ouros",
+            "nome":"Oito de Ouros",
+            "img":"8Ouros.png",
+            "desc":"Disposição para tentar de novo. Momento de ação, maturidade para reconhecer, que é hora de começar algo novo. Dependendo do caso, pode ser um novo investimento, um novo negócio, um emprego, um tratamento de saúde, um treinamento ou dieta novos. Possibilidade de transformar uma habilidade ou hobby em atividade lucrativa.",
+            "cat": "Arcano Menor",
+            "naipe":"Ouros"      
+        },
+        {
+            "id": "9Ouros",
+            "nome":"Nove de Ouros",
+            "img":"9Ouros.png",
+            "desc":"Satisfação. Satisfação com os resultadosProsperidade",
+            "cat": "Arcano Menor",
+            "naipe":"Ouros"      
+        },
+        {
+            "id": "10Ouros",
+            "nome":"Dez de Ouros",
+            "img":"10Ouros.png",
+            "desc":"Sucesso, riqueza material, saúde",
+            "cat": "Arcano Menor",
+            "naipe":"Ouros"      
+        },
+        {
+            "id": "vOuros",
+            "nome":"Pagem de Ouros",
+            "img":"vOuros.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Ouros"      
+        },
+        {
+            "id": "cOuros",
+            "nome":"Cavaleiro de Ouros",
+            "img":"cOuros.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Ouros"      
+        },
+                {
+            "id": "qOuros",
+            "nome":"Rainha de Ouros",
+            "img":"qOuros.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Ouros"      
+        },
+        {
+            "id": "kOuros",
+            "nome":"Rei de Ouros",
+            "img":"kOuros.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Ouros"      
+        },
+        {
+            "id": "1Espadas",
+            "nome":"Ás de Espadas",
+            "img":"1Espadas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Espadas"      
+        },
+                        {
+            "id": "2Espadas",
+            "nome":"Dois de Espadas",
+            "img":"2Espadas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Espadas"      
+        },
+                        {
+            "id": "3Espadas",
+            "nome":"Três de Espadas",
+            "img":"3Espadas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Espadas"      
+        },
+                        {
+            "id": "4Espadas",
+            "nome":"Quatro de Espadas",
+            "img":"4Espadas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Espadas"      
+        },
+                        {
+            "id": "5Espadas",
+            "nome":"Cinco de Espadas",
+            "img":"5Espadas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Espadas"      
+        },
+                        {
+            "id": "6Espadas",
+            "nome":"Seis de Espadas",
+            "img":"6Espadas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Espadas"      
+        },
+                        {
+            "id": "7Espadas",
+            "nome":"Sete de Espadas",
+            "img":"7Espadas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Espadas"      
+        },
+                        {
+            "id": "8Espadas",
+            "nome":"Oito de Espadas",
+            "img":"8Espadas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Espadas"      
+        },
+                        {
+            "id": "9Espadas",
+            "nome":"Nove de Espadas",
+            "img":"9Espadas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Espadas"      
+        },
+                        {
+            "id": "10Espadas",
+            "nome":"Dez de Espadas",
+            "img":"10Espadas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Espadas"      
+        },
+                        {
+            "id": "vEspadas",
+            "nome":"Pagem de Espadas",
+            "img":"vEspadas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Espadas"      
+        },
+                        {
+            "id": "cEspadas",
+            "nome":"Cavaleiro de Espadas",
+            "img":"cEspadas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Espadas"      
+        },
+                        {
+            "id": "qEspadas",
+            "nome":"Rainha de Espadas",
+            "img":"qEspadas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Espadas"      
+        },
+                        {
+            "id": "kEspadas",
+            "nome":"Rei de Espadas",
+            "img":"kEspadas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Espadas"      
+        },
+                        {
+            "id": "1Copas",
+            "nome":"Ás de Copas",
+            "img":"1Copas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Copas"      
+        },
+                                {
+            "id": "2Copas",
+            "nome":"Dois de Copas",
+            "img":"2Copas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Copas"      
+        },
+                                {
+            "id": "3Copas",
+            "nome":"Três de Copas",
+            "img":"3Copas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Copas"      
+        },
+                                {
+            "id": "4Copas",
+            "nome":"Quatro de Copas",
+            "img":"4Copas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Copas"      
+        },
+                                {
+            "id": "5Copas",
+            "nome":"Cinco de Copas",
+            "img":"5Copas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Copas"      
+        },
+                                {
+            "id": "6Copas",
+            "nome":"Seis de Copas",
+            "img":"6Copas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Copas"      
+        },
+                                {
+            "id": "7Copas",
+            "nome":"Sete de Copas",
+            "img":"7Copas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Copas"      
+        },
+                                {
+            "id": "8Copas",
+            "nome":"Oito de Copas",
+            "img":"8Copas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Copas"      
+        },
+                                {
+            "id": "9Copas",
+            "nome":"Nove de Copas",
+            "img":"9Copas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Copas"      
+        },
+                                {
+            "id": "10Copas",
+            "nome":"Dez de Copas",
+            "img":"10Copas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Copas"      
+        },
+                                {
+            "id": "vCopas",
+            "nome":"Pagem de Copas",
+            "img":"vCopas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Copas"      
+        },
+       {
+            "id": "cCopas",
+            "nome":"Cavaleiro de Copas",
+            "img":"cCopas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Copas"      
+        },
+          {
+            "id": "qCopas",
+            "nome":"Rainha de Copas",
+            "img":"qCopas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Copas"      
+        },
+         {
+            "id": "kCopas",
+            "nome":"Rei de Copas",
+            "img":"kCopas.png",
+            "desc":"",
+            "cat": "Arcano Menor",
+            "naipe":"Copas"      
+        },
+        {
+            "id": "O_Louco",
+            "nome":"O Louco",
+            "img":"O_Louco.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "O_Mago",
+            "nome":"O Mago",
+            "img":"O_Mago.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "A_Papisa",
+            "nome":"A Papisa",
+            "img":"A_Papisa.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "A_Imperatriz",
+            "nome":"A Imperatriz",
+            "img":"A_Imperatriz.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "O_Imperador",
+            "nome":"O Imperador",
+            "img":"O_Imperador.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "O_Papa",
+            "nome":"O Papa",
+            "img":"O_Papa.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "Os_Enamorados",
+            "nome":"Os Enamorados",
+            "img":"Os_Enamorados.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "O_Carro",
+            "nome":"O Carro",
+            "img":"O_Carro.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "A_Justiça",
+            "nome":"A Justiça",
+            "img":"A_Justiça.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "O_Eremita",
+            "nome":"O Eremita",
+            "img":"O_Eremita.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "A_Roda",
+            "nome":"A Roda",
+            "img":"A_Roda.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "A_Força",
+            "nome":"A Força",
+            "img":"A_Força.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "O_Enforcado",
+            "nome":"O Enforcado",
+            "img":"O_Enforcado.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "A_Morte",
+            "nome":"A Morte",
+            "img":"A_Morte.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "A_Temperança",
+            "nome":"A Temperança",
+            "img":"A_Temperança.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "O_Diabo",
+            "nome":"O Diabo",
+            "img":"O_Diabo.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "A_Torre",
+            "nome":"A Torre",
+            "img":"A_Torre.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "A_Estrela",
+            "nome":"A Estrela",
+            "img":"A_Estrela.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "A_Lua",
+            "nome":"A Lua",
+            "img":"A_Lua.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "O_Sol",
+            "nome":"O Sol",
+            "img":"O_Sol.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "O_Julgamento",
+            "nome":"O Julgamento",
+            "img":"O_Julgamento.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        },
+        {
+            "id": "O_Mundo",
+            "nome":"O Mundo",
+            "img":"O_Mundo.png",
+            "desc":"",
+            "cat": "Arcano Maior",
+            "naipe":""      
+        }
+    ]
+}

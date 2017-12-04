@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 
 import { DrawingComponent } from './drawing/drawing.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { DeckComponent } from './deck/deck.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     HomeComponent,
 
     DrawingComponent,
-    NavbarComponent
+    NavbarComponent,
+    DeckComponent
   ],
   imports: [
     BrowserModule,
