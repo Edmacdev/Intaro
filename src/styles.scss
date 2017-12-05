@@ -1,6 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.min.css";
+// @import "./node_modules/bxslider/dist/jquery.bxslider.css"
 
 .container{
   text-align: center;
+}
+.card{
+  float:left;
+  position:absolute;
+
+  width: 90px;
+  height: 160px;
+  background-image: url('./assets/cards/cardback.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }

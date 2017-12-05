@@ -13,31 +13,36 @@ declare var $:any;
 export class DeckComponent implements OnInit {
 
 
-
-  constructor(private cardsService:CardsService) { }
+  constructor() { }
 
 
   ngOnInit() {
-  console.log(this.cardsService.fetchJSONData())
-
-    //this.createCards();
+    this.createCards();
   }
   createCards(): void{
-    var cards:string[] = [];
+    $.getJSON( "../../assets/data.json", function( data ) {
 
-    $.getJSON( "../assets/data.json", function( data ) {
+      let cards = data.cartas;
+      let randomCard = null;
+      let tempCards:string[] = [];
+      let deckLength = cards.length;
 
-      for (let i=0; i<data.cartas.length; i++){
+      for (let i=0; i<deckLength; i++){
+        randomCard = Math.floor(Math.random()*cards.length);
+        tempCards.push(cards[randomCard]);
+        cards.splice(randomCard,1);
 
-      var cardHTML = '<div class="card" id="' + data.cartas[i].id + '"';
-      $('.deckContainer').append(data.cartas[i].id);
+      }
+
+      cards = tempCards;
+
+      for (let i=0; i<cards.length; i++){
+
+      var cardHTML = '<div class="card" id="' + cards[i].id + '"></div>';
+      $('.deckContainer').append(cardHTML);
+      $("#" + cards[i].id).animate({left:String(i*13) + 'px'},{duration:800})
       };
-
     });
-
-
-
   }
-
 
 }

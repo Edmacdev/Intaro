@@ -5,26 +5,28 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-
-import { DrawingComponent } from './drawing/drawing.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { DeckComponent } from './deck/deck.component';
+import { CardsService } from './cards.service';
+import { DeckComponent } from './deck/deck.component'
+import { LayoutComponent } from './layout/layout.component';
+import { ReadingComponent } from './reading/reading.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-
-    DrawingComponent,
     NavbarComponent,
+    LayoutComponent,
+    ReadingComponent,
     DeckComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
-  providers: [],
+  providers: [CardsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
