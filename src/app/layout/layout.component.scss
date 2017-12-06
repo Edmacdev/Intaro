@@ -1,0 +1,26 @@
+.cardSlots{
+    empty-cells: hide;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    border-collapse: separate;
+    border-spacing: 15px;
+    position: relative;
+    z-index: -1;
+    vertical-align: middle;
+  }
+.cardSlots tr td{
+    background-color: #3361A3;
+    color: #000;
+    font-size: 3.5em;
+    text-align: center;
+    width: 65px;
+    height: 118px;
+
+}
+.bxslider{
+  border: 0px;
+  box-shadow: 0px;
+}

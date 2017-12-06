@@ -18,6 +18,10 @@ export class DeckComponent implements OnInit {
 
   ngOnInit() {
     this.createCards();
+    $('.deckContainer').on('click',$('.card'),function(){
+      console.log($(this))
+    })
+
   }
   createCards(): void{
     $.getJSON( "../../assets/data.json", function( data ) {
@@ -40,6 +44,7 @@ export class DeckComponent implements OnInit {
 
       var cardHTML = '<div class="card" id="' + cards[i].id + '"></div>';
       $('.deckContainer').append(cardHTML);
+
       $("#" + cards[i].id).animate({left:String(i*13) + 'px'},{duration:800})
       };
     });

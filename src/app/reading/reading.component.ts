@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+declare var $:any;
 
 @Component({
   selector: 'app-reading',
@@ -11,6 +12,8 @@ export class ReadingComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
+
 
 }
