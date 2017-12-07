@@ -12,10 +12,15 @@ export class LayoutComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    var bxSlider =
     $('.slider').bxSlider({
        //wrapperClass: 'bxslider'
-       adaptiveHeight: true
+       adaptiveHeight: true,
+       onSlideAfter: function(slideElement, oldIndex, newIndex){
+         
+       }
     });
+
   }
 
 }
