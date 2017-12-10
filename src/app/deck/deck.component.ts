@@ -1,7 +1,5 @@
-import {
-  Component,
-  OnInit
-} from '@angular/core';
+import {  Component,  OnInit } from '@angular/core';
+import { ReadingService } from '../reading.service'
 
 declare var $: any;
 
@@ -15,7 +13,7 @@ declare var $: any;
 export class DeckComponent implements OnInit {
 
 
-  constructor() {}
+  constructor(private readingService:ReadingService) {}
 
 
   ngOnInit() {
@@ -56,14 +54,16 @@ export class DeckComponent implements OnInit {
   }
   manipulateCard() {
     var cnt = 0;
-    $('.deckContainer').on('click', '.card', function() {
+    var cardsSelected = this.readingService.getSelectedCards();
+    $(document).on('click', '.card', function() {
 
-      console.log($(this).position())
+      cardsSelected.push($(this));
+    console.log(cardsSelected)
       $(this).position({
         accept: ".card",
         my: "center",
         at: "center",
-        of: $(".slot-pair .slot" + cnt),
+        of: $(".selected .slot" + cnt),
         using: function(pos) {
           $(this).animate(pos, 200, "linear");
         }

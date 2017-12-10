@@ -16,8 +16,16 @@ export class LayoutComponent implements OnInit {
     $('.slider').bxSlider({
        //wrapperClass: 'bxslider'
        adaptiveHeight: true,
+       infiniteLoop: false,
+       pager: false,
+       onSlideBefore: function(){
+
+       },
        onSlideAfter: function(slideElement, oldIndex, newIndex){
-         
+
+         $('#slide-' + String(oldIndex)).removeClass('selected');
+         $('#slide-' + String(newIndex)).addClass('selected');
+
        }
     });
 

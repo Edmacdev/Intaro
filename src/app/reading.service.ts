@@ -4,5 +4,13 @@ import { Injectable } from '@angular/core';
 export class ReadingService {
 
   constructor() { }
+  selectedCards:object[] = [];
+
+  getSelectedCards(){
+    return this.selectedCards;
+  }
+  setSelectedcards(selectedCards){
+    this.selectedCards = selectedCards;
+  }
 
 }
